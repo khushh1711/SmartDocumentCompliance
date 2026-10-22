@@ -1,0 +1,8 @@
+@(
+    "venv/"
+    ".venv/"
+    "__pycache__/"
+    "*.py[cod]"
+    ".env"
+    "working_video/"
+) | Add-Content .gitignore
